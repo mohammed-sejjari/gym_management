@@ -44,7 +44,6 @@ def create_member():
 
 #--function of search
 
-
 def search_member(members):
     clear_screen()
     print("\nSearch by:")
@@ -84,9 +83,8 @@ def search_member(members):
         print("\nMember not found!")
         time.sleep(2)
 
-
-
 members = []
+
 #--loop system--
 while True:
     clear_screen()
@@ -100,7 +98,6 @@ while True:
     choice = input("\nEnter your choice: ")
 
     if choice == "1":
-        # create_member()
         members.append(create_member())
 
     elif choice == "2":
